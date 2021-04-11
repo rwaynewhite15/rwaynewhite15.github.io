@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     color: black;
     font-family: Helvetica, Arial, sans-serif;
@@ -55,3 +56,10 @@ h2 {
     text-align: center;
     width: 50%;
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+>>>>>>> 3a87aff540862a7026f594cbfadd5bc70b0e8060
