@@ -60,7 +60,7 @@ a:visited {
     color:var(--blue);
 }
 a:link {
-    color:khaki;
+    color:white;
 }
 a:hover {
     color: indigo;
