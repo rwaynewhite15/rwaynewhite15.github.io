@@ -257,6 +257,9 @@ a:hover {
       justify-content: center;
       display: inline;
     }
+    header nav ul li{
+      margin: 20px;
+    }
     footer ul {
       font-size: x-small;
     }
