@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #fce138;
-  --secondary-color: #024e76;
-  --tertiary-color: #39a6b2;
-  --background-color: rgb(25, 0, 130);
+  --primary-color: #FDAC53;
+  --secondary-color: #F5DF4D;
+  --tertiary-color: #9BB7D4;
+  --background-color: #0072B5;
 }
 
 * {
@@ -13,7 +13,7 @@
 
 header {
     padding: 20px 35px;
-    background-color: var(--tertiary-color);
+    background-color: var(--secondary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -32,13 +32,13 @@ header {
     font-weight: bold;
     margin: 0;
     font-size: 36px;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, .9);
   }
   
   header a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--background-color);
   }
   
   header nav {
@@ -68,12 +68,16 @@ header {
   }
 
 #name {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-size: 70px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background: var(--background-color);
     border-radius: 20px;
     padding: 20px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -95,9 +99,21 @@ body{
     margin: 20px;
     flex: 1;
     background: var(--secondary-color);
-    color: var(--primary-color);
+    color: var(--background-color);
     border-radius: 20px;
     }
+
+Div.project-info {
+  padding: 20px;
+}
+
+#run-buddy {
+  margin: 40px 20px 40px;
+  flex: 2;
+  background: var(--secondary-color);
+  color: var(--background-color);
+  border-radius: 20px;
+  }
 
 .project p {
     text-align: center;
@@ -106,7 +122,7 @@ body{
 
 .project h3 {
     text-align: center;
-    color: var(--primary-color);
+    color: var(--background-color);
 }
 
 .project h4 {
@@ -117,10 +133,10 @@ body{
     border-radius: 14px;
     position: static;
     margin: 50px 50px;
-    background-color:  var(--primary-color);
+    background-color:  var(--tertiary-color);
     display: inline;
     padding: 5px;
-    color: var(--secondary-color);
+    color: var(--background-color);
 }
 
 #nav-title {
@@ -136,7 +152,7 @@ body{
 .contact {
     font-weight: bolder;
     display: inline-block;
-    background-color: var(--tertiary-color);
+    background-color: var(--background-color);
     border-radius: 14px;
     width: auto;
     padding-right: 1%;
@@ -164,7 +180,22 @@ a:link {
 }
 
 a:hover {
-    color: indigo;
+    color: var(--primary-color);
+}
+
+#resume {
+  width:100%;
+  height: 1130px;
+}
+
+#bobnmadi {
+  width:100%;
+  height:100%;
+  position: relative;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+  opacity: var(--tertiary-color);
 }
 
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
@@ -181,7 +212,7 @@ a:hover {
     header nav ul {
       margin-top: 20px;
       width: 100%;
-      justify-content: center;
+      justify-content: left;
     }
     header nav ul li a {
       font-size: 20px;
@@ -223,5 +254,11 @@ a:hover {
     }
     .contact-form {
       order: 3;
+    }
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+      display: inline;
     }
   }
