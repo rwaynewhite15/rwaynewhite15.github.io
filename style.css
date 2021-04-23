@@ -257,4 +257,7 @@ a:hover {
       justify-content: center;
       display: inline;
     }
+    footer ul {
+      font-size: x-small;
+    }
   }
