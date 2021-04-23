@@ -58,6 +58,10 @@ header {
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: large;
   }
 
   header nav ul li a:hover {
@@ -75,13 +79,6 @@ header {
     border-radius: 20px;
     padding: 20px;
 
-}
-
-a {
-  font-weight: bolder;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: normal;
-  font-size: large;
 }
 
 a:visited {
