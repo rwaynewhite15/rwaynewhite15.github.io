@@ -77,7 +77,12 @@ header {
 
 }
 
-
+a {
+  font-weight: bolder;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: large;
+}
 
 a:visited {
     color:var(--blue);
