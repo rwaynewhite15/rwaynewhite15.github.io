@@ -34,6 +34,12 @@ header {
     font-size: 36px;
     color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, .9);
+    color: var(--primary-color);
+    font-size: 70px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: var(--background-color);
+    border-radius: 20px;
+    padding: 20px;
   }
   
   header a {
@@ -71,14 +77,10 @@ header {
     text-shadow: none;
   }
 
-#name {
-    color: var(--primary-color);
-    font-size: 70px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    background: var(--background-color);
-    border-radius: 20px;
-    padding: 20px;
-
+  body{
+    color: var(--white);
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--background-color);
 }
 
 a:visited {
