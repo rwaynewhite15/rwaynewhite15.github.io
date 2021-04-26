@@ -4,4 +4,4 @@
 
 This repo is being used to publish my web development protfolio to demonstrate my skills in various web development technologies.
 
-![screenshot](/)
+![screenshot](/PortfolioSiteScreenshot.png)
