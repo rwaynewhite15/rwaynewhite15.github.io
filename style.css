@@ -191,7 +191,27 @@ a:hover {
   padding: 100px;
   justify-content: center;
   align-items: center;
-  opacity: var(--tertiary-color);
+}
+
+#run-buddy div{
+  text-align: center;
+}
+
+#javascript div{
+  text-align: center;
+}
+
+#madi div{
+  text-align: center;
+}
+
+#aboutme {
+  padding: 20%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  line-height: 150%;
+  color: white;
 }
 
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
@@ -199,7 +219,7 @@ a:hover {
     header {
       padding-bottom: 0;
       justify-content: center;
-      position: relative
+      position: relative;
     }
     header h1 {
       width: 100%;
