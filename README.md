@@ -1,5 +1,5 @@
-# Robert Wayne White
+## Robert Wayne White
 
-Welcome to my home repo!
+# Welcome to my home repo!
 
-I want to learn and build something!
+This repo is being used to publish my web development protfolio to demonstrate my skills in various web development technologies.
