@@ -1,6 +1,6 @@
-## Robert Wayne White
+# Bobby White's Web Dev Portfolio
 
-# Welcome to my home repo!
+## Welcome to my home repo!
 
 This repo is being used to publish my web development protfolio to demonstrate my skills in various web development technologies.
 
