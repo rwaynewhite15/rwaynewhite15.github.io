@@ -264,8 +264,9 @@ section {
 }
 
 .contact {
+  background: var(--clr-outer);
   display: block;
-  background: seagreen;
+  border: var(--clr-outer);
   border-radius: 20px;
   width: 85%;
   max-width: 25rem;
@@ -359,17 +360,12 @@ section {
   --clr-accent: #a1173c;
 }
 
-.proj2-white {
+.proj3-blue, .proj2-white, .proj1-red {
   --clr-inner: #fce4b3;
   --clr-outer: #eac886;
   --clr-accent: #2f4858;
 }
 
-.proj3-blue {
-  --clr-inner: #6dd5ed;
-  --clr-outer: #2193b0;
-  --clr-accent: #008951;
-}
 
 .contact h3 {
   border-radius: 14px;
