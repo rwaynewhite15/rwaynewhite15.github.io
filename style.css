@@ -10,6 +10,7 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   line-height: 1.6;
   background-color: lightgrey;
+  font-weight: bolder;
 }
 
 #nav-title {
@@ -147,8 +148,9 @@ section {
 .hero {
   color: white;
   text-align: center;
-  padding: 15em 0;
+  padding: 10em 0 0 0;
   background: #222;
+  opacity: 90%;
 }
 
 @supports (background-blend-mode: multiply) {
@@ -229,8 +231,13 @@ section {
   text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.2);
 }
 
-.product__image {
-  margin: -5em 0 0 0;
+.contact {
+  display: block;
+  background: seagreen;
+  border-radius: 20px;
+  width: 85%;
+  max-width: 25rem;
+  margin: 0 auto;
 }
 
 @media (max-width: 45em) {
