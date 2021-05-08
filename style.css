@@ -13,13 +13,18 @@
   min-height: 100%;
 }
 
+.primary-bio {
+  padding: 5%;
+  background: #222;
+  opacity: 90%;
+  border-radius: 20px;
+}
+
 .contents {
   position: relative;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
-  padding: 20px;
 }
 
 #myBtn {
@@ -80,7 +85,10 @@ header nav ul li a:hover {
   border-radius: 15px;
   text-shadow: none;
 }
-
+.navItem{
+  color: hsl(193deg 100% 25%);
+  text-decoration: none; 
+}
 img {
   max-width: 100%;
   display: block;
@@ -134,6 +142,18 @@ section {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.product h3 {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-justify: newspaper;
+}
+
+.product__title h3{
+  justify-content: center;
+  padding: 10%;
+  width: 100%;
+}
+
+
 .btn {
   display: inline-block;
   text-decoration: none;
@@ -142,7 +162,6 @@ section {
   text-transform: uppercase;
   font-size: 1.125rem;
   padding: .5em 1.25em;
-  background: var(--clr-accent, blue);
   border-radius: .25em;
   -webkit-transition: opacity 250ms linear,
  -webkit-transform 250ms ease-in-out;
@@ -163,26 +182,35 @@ section {
 }
 
 .primary-title {
-  font-size: 4rem;
-  font-size: clamp(3rem, calc(5vw + 1rem), 4.5rem);
+  font-size: 6rem;
+  font-size: clamp(3rem, calc(15vw + 1rem), 5.5rem);
+  font-weight: 900;
   line-height: 1;
   text-transform: uppercase;
 }
 
-.section-title {
+#section-title {
   text-align: center;
   font-size: clamp(2.5rem, calc(5vw + 1rem), 4rem);
+  font-weight: bolder;
   line-height: 1;
-  color: #17353d;
-  margin-bottom: 5rem;
+  color: hsl(193deg 100% 25%);
+}
+
+section.our-products{
+  padding: 10em 0 0 0;
+  background: #222;
+  opacity: 90%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top: white;
+  border-top-width: thick;
 }
 
 .hero {
   color: white;
   text-align: center;
   padding: 10em 0 0 0;
-  background: #222;
-  opacity: 90%;
 }
 
 @supports (background-blend-mode: multiply) {
@@ -202,8 +230,8 @@ section {
 .featured__item {
   display: block;
   position: relative;
-  -webkit-transform: scale(0.85);
-          transform: scale(0.85);
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
   -webkit-transition: -webkit-transform 250ms ease-in-out;
   transition: -webkit-transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
@@ -266,11 +294,10 @@ section {
 .contact {
   background: var(--clr-outer);
   display: block;
-  border: var(--clr-outer);
   border-radius: 20px;
-  width: 85%;
+  width: 150%;
   max-width: 25rem;
-  margin: 0 auto;
+  margin: 0 0 50px 0;
 }
 
 @media (max-width: 45em) {
@@ -302,6 +329,12 @@ section {
   .project {
     flex: 0 100%;
   }
+  .contact{
+    width: 100%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
   .contact-info {
     text-align: center;
   }
@@ -312,23 +345,46 @@ section {
     order: 3;
   }
   header nav ul {
+    text-align: center;
     margin-top: 10px;
     width: 100%;
     justify-content: center;
     display: inline;
   }
-  header nav ul li{
-    margin: 20px;
+  header nav ul li {
+    margin: 40px;
+    justify-content: center;
+    text-align: left;
+    margin-left: -13%;
+    margin-right: -10%;
   }
+  header nav ul li a {
+    font-weight: 700;
+    font-size: small;
+    text-shadow: 0 0 3em rgb(255, 255, 255);
+    outline: orange;
+    outline-width: 2px;
+  }
+  footer {
+    margin-bottom: 200%;
+  }
+
   footer ul {
     font-size: x-small;
   }
   .product {
     text-align: left;
-    margin-bottom: 9em;
+    margin-bottom: 25em;
+    margin-top: 20em;
   }
   .product__title {
     margin: 0;
+    text-align: center;
+  }
+  .text-overflow-center {
+      margin-left: -10%;
+      margin-right: -10%;
+      text-align: center;
   }
   .product__image {
     float: right;
@@ -341,7 +397,7 @@ section {
     float: left;
     shape-outside: url(../img/shoe-2.png);
     margin: 0 0 0 -5em;
-    shape-margin: 2em;
+    shape-margin: 1em;
   }
   footer h2, footer div 
   {
@@ -351,7 +407,8 @@ section {
 }
 
 .hero {
-  --clr-accent: #faa700;
+  --clr-accent: hsl(40deg 76% 43%);
+  justify-content: center;
 }
 
 .proj1-red {
@@ -373,7 +430,6 @@ section {
   margin: 50px 50px;
   background-color:  var(--tertiary-color);
   display: inline;
-  padding: 5px;
   color: var(--background-color);
 }
 
@@ -381,6 +437,16 @@ html {
 	scroll-behavior: smooth;
 }
 
+.our-products {
+  margin-bottom: -10%;
+}
+
+#myBtn{
+  margin-top: 60%;
+  border-radius: 25%;
+  height: fit-content;
+  width: fit-content;
+}
 /*# sourceMappingURL=main.css.map */
 
 
