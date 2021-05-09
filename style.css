@@ -5,12 +5,15 @@
           box-sizing: border-box;
 }
 
+
 #myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  position:absolute;
+  right: auto;
+  bottom: auto;
+  height: 509px;
+  width: 100%;
+  box-shadow: #333;
+  border-radius: 50%;
 }
 
 .primary-bio {
@@ -46,7 +49,7 @@ body {
   margin: 0;
   font-family: 'Noto Sans JP', sans-serif;
   line-height: 1.6;
-  background-color: lightgrey;
+  background-color: rgb(230, 170, 80);
   font-weight: bolder;
 }
 
@@ -102,7 +105,8 @@ p {
 }
 
 section {
-  padding: 7em 0;
+  padding: 20em 0;
+  width: max-content;
 }
 
 .container {
@@ -157,7 +161,7 @@ section {
 .btn {
   display: inline-block;
   text-decoration: none;
-  color: var(--clr-text, #fff);
+  color: ;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 1.125rem;
@@ -201,10 +205,10 @@ section.our-products{
   padding: 10em 0 0 0;
   background: #222;
   opacity: 90%;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-radius: 20px;
   border-top: white;
   border-top-width: thick;
+  width: 100%;
 }
 
 .hero {
@@ -297,7 +301,7 @@ section.our-products{
   border-radius: 20px;
   width: 150%;
   max-width: 25rem;
-  margin: 0 0 50px 0;
+  margin: 0 0 70px 0;
 }
 
 @media (max-width: 45em) {
@@ -334,6 +338,7 @@ section.our-products{
     padding-left: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
+    margin-bottom: 5%;
   }
   .contact-info {
     text-align: center;
@@ -442,10 +447,11 @@ html {
 }
 
 #myBtn{
-  margin-top: 60%;
+  margin-top: 25%;
   border-radius: 25%;
   height: fit-content;
   width: fit-content;
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */
 
