@@ -1,7 +1,15 @@
-# Bobby White's Web Dev Portfolio
+# [Bobby White's Portfolio](https://www.rwaynewhite15.github.io)
 
 ## Welcome to my home repo!
 
-This repo is being used to publish my web development protfolio to demonstrate my skills in various web development technologies.
+## 
 
-![screenshot](/PortfolioSiteScreenshot.png)
+### Please view my portfolio page hosted by this repo!  
+*I am gaining skills in:* 
+* Git  
+* HTML  
+* CSS  
+* JavaScript  
+* CSS Frameworks  
+* Javascript Web APIS  
+* Javascript Server-Side APIS  
