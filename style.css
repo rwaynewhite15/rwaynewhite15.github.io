@@ -63,6 +63,22 @@ body {
   color: var(--tertiary-color);
 }
 
+header {
+  padding: 20px 35px;
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 99;
+  border-radius: 20px;
+}
+
 header nav {
   margin: 50px 0;
 }
@@ -80,6 +96,7 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 3vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
 }
 
 header nav ul li a:hover {
@@ -161,7 +178,6 @@ section {
 .btn {
   display: inline-block;
   text-decoration: none;
-  color: ;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 1.125rem;
