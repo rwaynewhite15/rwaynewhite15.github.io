@@ -82,9 +82,7 @@
   footer {
     background: var(--primary-color);
     padding: 40px 35px;
-    display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     width: 100%;
   }
   
@@ -111,7 +109,6 @@
   
   /* HERO STYLES START */
   .hero {
-    background-image: url('../images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -119,53 +116,10 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: flex-start
-  }
-  
-  .hero-cta {
-    width: 35%;
-    text-align: right;
-    margin: 3.5%;
-    color: #fff;
-    font-size: 18px;
-    line-height: 1.2;
-    color: var(--tertiary-color);
-    padding-top: 40px;
-  }
-  
-  .hero-cta h1 {
-    font-style: italic;
-    color: var(--tertiary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    padding-bottom: 20px;
+    align-items: flex-start;
+    background: var(--primary-color);
   }
 
-  .hero-cta h2 {
-    font-style: italic;
-    font-size: 55px;
-    color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    padding-bottom: 20px;
-  }
-  
-  .hero-form {
-    border: 3px solid var(--secondary-color);
-    background-color:rgb(252, 225, 56, 0.8);
-    padding: 20px;
-    color: var(--secondary-color);
-    width: 40%;
-    margin: 3.5%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-  }
-  
-  .hero-form h3 {
-    font-size: 24px;
-    margin: 0;
-  }
-  .hero-form p {
-    margin: 5px 0 15px 0;
-  }
   
   .form-input {
     border: 1px solid var(--secondary-color);
@@ -304,51 +258,21 @@
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
+    font-size: x-large;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    flex: auto
   }
 
-  .step:not(:last-child) {
-    border-bottom: 1px solid var(--tertiary-color);
-  }
-  
-  .step h3 {
-    color: var(--secondary-color);
-    font-size: 46px;
-    flex: 1 30%;
-  }
-  
-  .step-info {
-    flex: 2 70%;
+  .contact-info {
+    padding-left: 35px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-  }
-  
-  .step-img {
-    flex: 1 12%;
-    margin-right: 20px;
-  }
-  
-  .step-img img {
-    max-width: 100%;
-  }
-  
-  .step-text {
-    flex: 12;
-  }
-  
-  .step-text p {
-    color: var(--tertiary-color);
-    font-size: 18px;
-  }
-  
-  .step-text h4 {
-    font-size: 26px;
-    line-height: 1.5;
-    color: var(--secondary-color);
+    justify-content: left;
+    background: var(--primary-color);
   }
   
   /* WHAT YOU DO STYLES END */
@@ -452,7 +376,8 @@
     flex: 0 70%;
   }
   .contact-info iframe{
-    flex: 1 100%;
+    text-align: center;
+    justify-content: center;
   }
 
 }
